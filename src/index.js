@@ -308,7 +308,7 @@ class AvatarEditor extends React.Component {
   }
 
   isVertical() {
-    return this.props.rotate % 180 !== 0
+    return false
   }
 
   getBorders(border = this.props.border) {
